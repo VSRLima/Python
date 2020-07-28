@@ -1,0 +1,6 @@
+print('Colégio 3 milênio')
+print('=================')
+nome = input('Digite o nome do aluno: ')
+n1 = float(input('Qual a sua primeira nota? '))
+n2 = float(input('Qual a sua segunda nota? '))
+print('O aluno {}, que tirou {} na primeira prova e {} na segunda, ficou com média {:.2f}'.format(nome, n1, n2, (n1 + n2) / 2))
